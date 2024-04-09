@@ -2,10 +2,14 @@
 
 namespace RecipeApplication
 {
+    // Represents an ingredient in a recipe.
     class Ingredient
     {
+        // The name of the ingredient.
         public string Name { get; set; }
+        // The quantity of the ingredient.
         public double Quantity { get; set; }
+        / The unit of measurement for the quantity of the ingredient.
         public string Unit { get; set; }
     }
 
