@@ -21,6 +21,7 @@ namespace RecipeApplication
 
         public void EnterRecipeDetails()
         {
+            // This is where you enter details for receipient
             Console.WriteLine("Enter the number of ingredients:");
             int numIngredients = int.Parse(Console.ReadLine());
             ingredients = new Ingredient[numIngredients];
