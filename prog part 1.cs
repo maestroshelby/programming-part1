@@ -38,7 +38,7 @@ namespace RecipeApplication
 
                 ingredients[i] = new Ingredient { Name = name, Quantity = quantity, Unit = unit };
             }
-
+            //Prompt the user to enter the number of steps required for the recipe.
             Console.WriteLine("Enter the number of steps:");
             int numSteps = int.Parse(Console.ReadLine());
             steps = new Step[numSteps];
