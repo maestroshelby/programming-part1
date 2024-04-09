@@ -32,6 +32,8 @@ namespace RecipeApplication
 
             for (int i = 0; i < numIngredients; i++)
             {
+                // Prompt the user to enter details for each ingredient, going through the loop.
+
                 Console.WriteLine($"Enter details for ingredient {i + 1}:");
                 Console.Write("Name: ");
                 string name = Console.ReadLine();
